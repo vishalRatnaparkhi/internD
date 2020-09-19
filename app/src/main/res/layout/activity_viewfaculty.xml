@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewfaculty">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="185dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F9F9FA"
+            android:foregroundTint="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="354dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+
+                android:text="Vishwakarma Institute of Technology, Pune" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="208dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="50dp"
+                android:text="Electronics Department " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="80dp"
+                android:text="Students Internship Data " />
+
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="148dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:background="#AFD8E0"
+                android:text="User Information "
+                android:textColor="#0B0B0B" />
+
+            <TextView
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="50dp"
+
+
+                android:textColor="#0B0B0B" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="148dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="250dp"
+                android:background="#AFD8E0"
+                android:text="Send Message "
+                android:textColor="#0B0B0B" />
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="300dp"
+                android:inputType="textPersonName"
+                android:hint="Enter Title" />
+            <EditText
+                android:id="@+id/data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="350dp"
+                android:inputType="textPersonName"
+                android:hint="Enter Messagae" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="160dp"
+                android:text="Send Messagae" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+

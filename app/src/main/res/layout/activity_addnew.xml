@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".addnew">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="354dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+
+                    android:text="Vishwakarma Institute of Technology, Pune" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="208dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Electronics Department " />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Students Internship Data " />
+
+
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="148dp"
+                    android:layout_height="25dp"
+                    android:background="#7C4DFF"
+                    android:layout_marginLeft="50dp"
+                    android:text="Sign Up"
+                    android:layout_marginTop="150dp"
+                    android:textColor="#0B0B0B" />
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="150dp"
+                    android:entries="@array/items_class"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="71dp"
+                    android:layout_height="23dp"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="First Name" />
+
+
+                <EditText
+                    android:id="@+id/fname"
+                    android:layout_width="203dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="180dp"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+
+
+                <TextView
+                    android:id="@+id/textVie7"
+                    android:layout_width="97dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="260dp"
+                    android:text="Middle Name" />
+
+
+
+                <EditText
+                    android:id="@+id/mname"
+                    android:layout_width="201dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="250dp"
+                    android:ems="10"
+                     />
+
+
+                <TextView
+                    android:id="@+id/textViw7"
+                    android:layout_width="97dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="310dp"
+                    android:text="Last Name" />
+
+
+
+                <EditText
+                    android:id="@+id/lname"
+                    android:layout_width="201dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="300dp"
+                    android:ems="10"
+                    />
+
+                <TextView
+                    android:id="@+id/tetView7"
+                    android:layout_width="97dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="430dp"
+                    android:text="Email" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="201dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="420dp"
+                    android:ems="100"
+                    />
+
+                <TextView
+                    android:id="@+id/txtView7"
+                    android:layout_width="97dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="370dp"
+                    android:text="GR Number" />
+
+
+
+                <EditText
+                    android:id="@+id/grno"
+                    android:layout_width="201dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="360dp"
+                    android:ems="10"
+                    />
+
+
+                <TextView
+                    android:id="@+id/texView7"
+                    android:layout_width="97dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="490dp"
+                    android:text="Password" />
+
+
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="201dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="480dp"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    />
+
+
+
+
+
+                <Button
+                    android:id="@+id/sign"
+                    android:layout_width="108dp"
+                    android:layout_height="54dp"
+                    android:layout_marginTop="550dp"
+                    android:layout_marginLeft="170dp"
+                    android:text="Sign Up" />
+
+
+
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+
+
+
+

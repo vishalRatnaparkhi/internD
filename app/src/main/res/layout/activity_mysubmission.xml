@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mysubmission">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F9F9FA"
+            android:foregroundTint="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="354dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+
+                android:text="Vishwakarma Institute of Technology, Pune" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="208dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="50dp"
+                android:text="Electronics Department " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="80dp"
+                android:text="Students Internship Data " />
+
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:background="#AFD8E0"
+                android:text=" My Submissions "
+                android:textColor="#0B0B0B" />
+            <Button
+                android:id="@+id/buttonUploadFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="150dp"
+                android:text="Upload PDF" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="299dp"
+
+                android:layout_height="550dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="150dp"/>
+
+
+
+
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="270dp"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

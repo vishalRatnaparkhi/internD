@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".studentnoti">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="185dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F9F9FA"
+            android:foregroundTint="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="354dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+
+                android:text="Vishwakarma Institute of Technology, Pune" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="208dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="50dp"
+                android:text="Electronics Department " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="80dp"
+                android:text="Students Internship Data " />
+
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:background="#AFD8E0"
+                android:text=" Create Student Notificaton "
+                android:textColor="#0B0B0B" />
+
+
+
+
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Enter Title For Notification"
+                android:ems="10"
+                 />
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/desc"
+                android:layout_width="300dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="400dp"
+                android:hint="Enter Description."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                 />
+
+            <Button
+                android:id="@+id/buttonUploadFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="450dp"
+                android:text="Upload PDF" />
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="270dp"
+                android:layout_marginLeft="170dp"
+                android:visibility="gone" />
+
+
+
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="520dp"
+                android:text="Send Notification" />
+            <TextView
+                android:id="@+id/tvk"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="580dp"
+                android:background="#AFD8E0"
+                android:text=" recently sent files "
+                android:textColor="#0B0B0B" />
+
+
+
+
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="400dp"
+
+                android:layout_height="550dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="620dp"
+                android:layout_marginRight="50dp"/>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#D81B60"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/roll"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:text="Roll"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+
+        android:id="@+id/grno"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:text="GR Number"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+
+        android:id="@+id/fname"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:text="First Name"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="110dp"
+
+        android:id="@+id/mname"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:text="Middle Name"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="220dp"
+
+        android:id="@+id/lname"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:text="Last Name"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+
+        android:id="@+id/email"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:text="Email"
+        />
+
+
+
+
+</RelativeLayout>

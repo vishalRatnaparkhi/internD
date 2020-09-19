@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.internd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/whit_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/blu_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".intern" />
+        <activity android:name=".mysubmission" />
+        <activity android:name=".adminnoti" />
+        <activity android:name=".submission" />
+        <activity android:name=".viewstudent" />
+        <activity android:name=".viewfaculty" />
+        <activity android:name=".facultynoti" />
+        <activity android:name=".removeuser" />
+        <activity android:name=".facultylist" />
+        <activity android:name=".studentlist" />
+        <activity android:name=".admin" />
+        <activity android:name=".faculty" />
+        <activity android:name=".student" />
+        <activity android:name=".addnew" />
+        <activity android:name=".studentnoti" />
+        <activity android:name=".ReceiveNotificationActivity" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_background" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

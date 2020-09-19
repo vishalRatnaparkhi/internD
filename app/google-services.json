@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "655904606409",
+    "firebase_url": "https://internd-ed54d.firebaseio.com",
+    "project_id": "internd-ed54d",
+    "storage_bucket": "internd-ed54d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655904606409:android:86e81a162a027bd90d6518",
+        "android_client_info": {
+          "package_name": "com.example.internd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655904606409-hcnp9tki56004hg3j666d06imdagdb7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.internd",
+            "certificate_hash": "2f895b3e30b2a597b182e47a84f8fe1908c18058"
+          }
+        },
+        {
+          "client_id": "655904606409-4ark4jva8bgv4mbsc0burgo1ahe8v5hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjakXyfnVIx9e51mo6mdLzw7bovCCNXks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655904606409-4ark4jva8bgv4mbsc0burgo1ahe8v5hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
